@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-great-icons",
     "window.zoomLevel": 0,
     "editor.fontSize": 16,
     "php.suggest.basic": false,

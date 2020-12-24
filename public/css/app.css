@@ -10904,3 +10904,52 @@ a.text-dark:focus {
   }
 }
 
+h1 {
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header-menu {
+  background-color: #00296B;
+}
+
+.header-toggle {
+  background-color: transparent;
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.list-item-menu {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Media Queries Desktop*/
+
+@media only screen and (min-width: 1024px) {
+  .header-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+}
+

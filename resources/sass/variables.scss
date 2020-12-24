@@ -1,0 +1,69 @@
+// Colores
+
+$primary-color: #00296B;
+$secondary-color: #FDC500;
+$azul-claro: #00509D;
+$azul-oscuro: #003F88;
+$amarillo-claro: #ffd500;
+
+// Typography
+$font-primary: 'Ubuntu', sans-serif;
+$font-secondary: 'Architects Daughter', cursive;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+//Estilos Generales
+
+h1{
+    font-size: 2.3rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+*{
+    font-family: $font-primary;
+}
+
+//Header
+
+.header-menu{
+    background-color: $primary-color;
+}
+.header-toggle{
+    background-color: transparent;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+}
+.nav-menu{
+    display: none;
+}
+.list-item-menu{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+//Formato Desktop
+/* Media Queries Desktop*/
+
+@media only screen and (min-width: 1024px){
+
+    //Header
+
+    .header-toggle{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+
+
+
+
+}
