@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "php.suggest.basic": false,
+    "editor.quickSuggestions": { "comments": true },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
+      ],
+      "editor.fontFamily": "Fira Code",
+      "editor.fontLigatures": true,
+      "editor.lineHeight": 35,
+}
