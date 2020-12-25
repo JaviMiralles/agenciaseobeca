@@ -233,7 +233,11 @@ var Pushbar = /*#__PURE__*/function () {
 var pushbar = new Pushbar({
   blur: true,
   overlay: true
-});
+}); //open a pushbar
+
+pushbar.open('mypushbar'); //close all pushbars
+
+pushbar.close();
 
 /***/ }),
 

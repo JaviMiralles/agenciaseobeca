@@ -77,7 +77,12 @@ class Pushbar {
         this.activeElement = null;
     }
 }
-const pushbar = new Pushbar({
+const pushbar =   new Pushbar({
     blur:true,
     overlay:true,
     });
+
+  //open a pushbar
+  pushbar.open('mypushbar');	
+  //close all pushbars
+  pushbar.close();

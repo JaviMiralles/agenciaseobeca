@@ -10904,6 +10904,10 @@ a.text-dark:focus {
   }
 }
 
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
 .container {
   width: 1200px;
   max-width: 100%;
@@ -10921,8 +10925,36 @@ h3 {
   font-size: 1.5rem;
 }
 
-* {
-  font-family: "Ubuntu", sans-serif;
+p {
+  font-size: 18px;
+}
+
+.title-home {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.cta-button {
+  background-color: #00296B;
+  color: #fff;
+  width: 75%;
+  margin: 20px 10px 10px 30px;
+  padding: 20px 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-button:hover {
+  background-color: #00509D;
+}
+
+.bg-blue {
+  background-color: #00509D;
 }
 
 .header-menu {
@@ -10972,6 +11004,33 @@ h3 {
   border: 0px;
   font-size: 40px;
   padding: 10px 20px;
+}
+
+.bg-home {
+  background-image: url(/images/agencia-seo.jpg?a8b1d7674f58fc195247fd697fa7c8df);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-home {
+  padding: 40px 20px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-section {
+  height: 100vh;
+}
+
+.indicator {
+  background-color: rgba(0, 41, 107, 0.8);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 html.pushbar_locked {
@@ -11084,6 +11143,14 @@ html.pushbar_locked .pushbar_overlay {
 
   .header-menu-list li a {
     color: #fff;
+  }
+
+  .cta-button {
+    width: 300px;
+  }
+
+  .header-section {
+    flex-direction: row;
   }
 }
 

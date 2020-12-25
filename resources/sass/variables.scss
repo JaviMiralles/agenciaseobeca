@@ -8,9 +8,11 @@ $amarillo-claro: #ffd500;
 
 // Typography
 $font-primary: 'Ubuntu', sans-serif;
-$font-secondary: 'Architects Daughter', cursive;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+*{
+    font-family: $font-primary;
+}
 
 //Containers
 
@@ -32,11 +34,34 @@ h2{
 h3{
     font-size: 1.5rem;
 }
-
-*{
-    font-family: $font-primary;
+p{
+    font-size: 18px;
 }
 
+
+.title-home{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.text-white{
+    color: #fff;
+}
+.cta-button{
+    background-color: $primary-color;
+    color: #fff;
+    width: 75%;
+    margin: 20px 10px 10px 30px;
+    padding: 20px 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.cta-button:hover{
+    background-color: $azul-claro;
+}
+.bg-blue{
+    background-color: $azul-claro;
+}
 //Header
 
 .header-menu{
@@ -82,6 +107,31 @@ h3{
     padding: 10px 20px;
 }
 
+//Home
+
+.bg-home{
+    background-image: url(../img/agencia-seo.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-home{
+    padding: 40px 20px;
+}
+.header-section{
+    display: flex;
+    flex-direction: column;
+}
+.home-section{
+    height: 100vh;
+}
+.indicator{
+    background-color: rgba($color: $primary-color, $alpha: 0.8);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
 //Pushbar
 html.pushbar_locked {
     overflow: hidden;
@@ -195,6 +245,12 @@ html.pushbar_locked .pushbar_overlay {
     }
     .header-menu-list li a {
         color: #fff;
+    }
+    .cta-button{
+        width: 300px;
+    }
+    .header-section{
+        flex-direction: row;
     }
 
 
