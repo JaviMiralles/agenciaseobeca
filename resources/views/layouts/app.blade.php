@@ -83,7 +83,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         
         {{-- Styles --}}
-        <link defer rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+        <link  rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
     </head>
     <body class="antialiased">
         <header class="header header-menu">
