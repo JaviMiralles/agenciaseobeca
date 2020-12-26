@@ -10,7 +10,7 @@
               <p class="grey-text wow" >Lleve su negocio al siguiente nivel con nuestra plataforma tecnológica y nuestros servicios de marketing digital</p>
               <br>
               <div class="cta-home">
-                <button class="cta-button">listos para crecer</button>
+                <button class="cta-button">¿Listos para crecer?</button>
                 </div>
             </div>
           </div>
