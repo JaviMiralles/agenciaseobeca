@@ -200,7 +200,7 @@
             {{-- Styles --}}
         <link  rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
             {{-- Scripts --}}
-            <script defer src="{{asset('js/app.js')}}"></script>
+            <script async src="{{asset('js/app.js')}}"></script>
           </footer>
 
     </body>
