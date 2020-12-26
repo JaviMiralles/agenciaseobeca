@@ -82,8 +82,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         
-        {{-- Styles --}}
-        <link  rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+        
     </head>
     <body class="antialiased">
         <header class="header header-menu">
@@ -198,6 +197,8 @@
                 © 2021 Copyright: <a href="https://agenciaseobeca.es" target="_blank"> Agencia SEO y Marketing BECA SL</a>
               </div>
             </div>
+            {{-- Styles --}}
+        <link  rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
             {{-- Scripts --}}
             <script src="{{asset('js/app.js')}}"></script>
           </footer>
