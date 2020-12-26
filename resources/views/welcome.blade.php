@@ -16,7 +16,7 @@
           </div>
 
           <div class="col-md-12 col-lg-6 wow fadeIn" >
-            <img src="{{asset('../img/phone-seo.png')}}" alt="agencia seo almeria" class="img-fluid">
+            <img src="{{asset('../img/phone-seo.webp')}}" alt="agencia seo almeria" class="img-fluid">
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@
             <!-- Grid column -->
             <div class="col-lg-5 col-md-12 mb-3 wow fadeIn">
               <!-- Image -->
-              <img src="{{asset('../img/marketing-almeria.png')}}" alt="agencia publicidad almeria" class="img-fluid">
+              <img src="{{asset('../img/marketing-almeria.webp')}}" alt="agencia publicidad almeria" class="img-fluid">
             </div>
             <!-- Grid column -->
   
@@ -105,7 +105,7 @@
   
             <!-- Grid column -->
             <div class="col-lg-4 col-md-12 mb-1 text-center text-md-left">
-                <img src="{{asset('../img/phone-seo.png')}}" alt="poscionamiento web en Almeria" class="img-fluid">
+                <img src="{{asset('../img/phone-seo.webp')}}" alt="poscionamiento web en Almeria" class="img-fluid">
             </div>
             <!-- Grid column -->
   
