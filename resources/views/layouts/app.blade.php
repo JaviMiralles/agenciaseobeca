@@ -84,7 +84,7 @@
         
         
     </head>
-    <body class="antialiased">
+    <body>
         <header class="header header-menu">
             <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
                 <div class="container">
