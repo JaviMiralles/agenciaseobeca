@@ -10929,6 +10929,14 @@ p {
   font-size: 18px;
 }
 
+footer p {
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
 .title-home {
   color: #fff;
   font-weight: 700;
@@ -11008,7 +11016,6 @@ p {
 
 .bg-home {
   background-image: url(/images/agencia-seo.jpg?a8b1d7674f58fc195247fd697fa7c8df);
-  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11151,6 +11158,13 @@ html.pushbar_locked .pushbar_overlay {
 
   .header-section {
     flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .statitics {
+    flex-direction: column;
   }
 }
 
