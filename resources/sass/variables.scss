@@ -1,0 +1,267 @@
+// Colores
+
+$primary-color: #00296B;
+$secondary-color: #FDC500;
+$azul-claro: #00509D;
+$azul-oscuro: #003F88;
+$amarillo-claro: #ffd500;
+
+// Typography
+$font-primary: 'Ubuntu', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+*{
+    font-family: $font-primary;
+}
+
+//Containers
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+}
+
+//Estilos Generales
+
+h1{
+    font-size: 2.3rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 18px;
+}
+footer p{
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+
+.title-home{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.text-white{
+    color: #fff;
+}
+.cta-button{
+    background-color: $primary-color;
+    color: #fff;
+    width: 75%;
+    margin: 20px 10px 10px 30px;
+    padding: 20px 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.cta-button:hover{
+    background-color: $azul-claro;
+}
+.bg-blue{
+    background-color: $azul-claro;
+}
+//Header
+
+.header-menu{
+    background-color: $primary-color;
+}
+.header-toggle{
+    background-color: transparent;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+}
+.nav-menu{
+    display: none;
+}
+.list-item-menu{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-desktop{
+    display: none;
+}
+
+.menu-list-item {
+    list-style: none;
+    padding: 15px 0px;
+}
+
+.menu-list-item a{
+    color: #fff;
+    padding-top: 0;
+    font-size: 20px;
+    list-style: none;
+}
+#mobile-menu{
+    background-color: $primary-color;
+}
+.mobile-menu-close{
+    background: transparent;
+    color: #fff;
+    border: 0px;
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+//Home
+
+.bg-home{
+    background-image: url(../img/agencia-seo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-home{
+    padding: 40px 20px;
+}
+.header-section{
+    display: flex;
+    flex-direction: column;
+}
+.home-section{
+    height: 100vh;
+}
+.indicator{
+    background-color: rgba($color: $primary-color, $alpha: 0.8);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+//Pushbar
+html.pushbar_locked {
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.pushbar_locked .pushbar_main_content.pushbar_blur {
+    filter: blur(15px);
+}
+
+.pushbar_overlay {
+    z-index: -999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    will-change: opacity;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    background: #3c3442;
+}
+
+html.pushbar_locked .pushbar_overlay {
+    opacity: 0.8;
+    z-index: 999;
+}
+
+[data-pushbar-id] {
+    z-index: 1000;
+    position: fixed;
+    overflow-y: auto;
+    will-change: transform;
+    transition: transform 0.5s ease;
+    background: #fff;
+}
+
+[data-pushbar-direction="left"][data-pushbar-id], [data-pushbar-direction="right"][data-pushbar-id] {
+    top: 0;
+    width: 256px;
+    max-width: 100%;
+    height: 100%;
+}
+
+[data-pushbar-direction="top"][data-pushbar-id], [data-pushbar-direction="bottom"][data-pushbar-id] {
+    left: 0;
+    width: 100%;
+    min-height: 150px;
+}
+
+[data-pushbar-direction="left"][data-pushbar-id] {
+    left: 0;
+    transform: translateZ(0) translateX(-100%);
+}
+
+[data-pushbar-direction="right"][data-pushbar-id] {
+    right: 0;
+    transform: translateZ(0) translateX(100%);
+}
+
+[data-pushbar-direction="top"][data-pushbar-id] {
+    top: 0;
+    transform: translateZ(0) translateY(-100%);
+}
+
+[data-pushbar-direction="bottom"][data-pushbar-id] {
+    bottom: 0;
+    transform: translateZ(0) translateY(100%);
+}
+
+[data-pushbar-id].opened {
+    display: block;
+    transform: translateX(0px) translateY(0px);
+}
+
+
+//END Pushbar
+//Formato Desktop
+/* Media Queries Desktop*/
+
+@media only screen and (min-width: 1024px){
+
+    //Header
+
+    .header-toggle{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+
+    .menu-desktop{
+        display: block;
+        margin: auto 0;
+    }
+
+    .list-item-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-menu-list{
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+    }
+    .header-menu-list li {
+        list-style: none;
+        padding: 0px 20px;
+    }
+    .header-menu-list li a {
+        color: #fff;
+    }
+    .cta-button{
+        width: 300px;
+    }
+    .header-section{
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 90%
+    }
+    .statitics {
+        flex-direction: column;
+    }
+
+
+}
